@@ -4,11 +4,11 @@ Technical Test - DataSprints
 
 Foi criada uma instância de banco SQL Server no Amazon RDS no Free Tier para esse desafio.
 
-A conexão ao banco foi feita através do Python, onde estão separados em 3 arquivos as cargas das stagings, as cargas frias de dimensões e as cargas incrementais de dimensões em T-SQL. ![Modelagem](Modelagem Teste Técnico - DataSprints.png)
+A conexão ao banco foi feita através do Python, onde estão separados em 3 arquivos as cargas das stagings, as cargas frias de dimensões e as cargas incrementais de dimensões em T-SQL. ![](Modelagem Teste Técnico - DataSprints.png)
 
 Para acessar o dashboard criado para esse desafio, basta acessar o através do link [Power BI]()
 
-Foi utilizado o software DBFVIEWER para abrir as coordenadas geográficas das cidades brasileiras em formato .dbf e exportar para o formato .xls, e em seguida utilizado o SSIS(SQL Server Integration Services) para inserir os dados no banco.![SSIS](SSIS Teste Técnico - DataSprints.png)
+Foi utilizado o software DBFVIEWER para abrir as coordenadas geográficas das cidades brasileiras em formato .dbf e exportar para o formato .xls, e em seguida utilizado o SSIS(SQL Server Integration Services) para inserir os dados no banco.![](SSIS Teste Técnico - DataSprints.png)
 
 Para dar a carga inicial dos dados utilizei o SSIS para importar o arquivo MICRODADOS_ENEM.csv para dentro do banco com o nome de tabela raw_data, em seguida passei os dados ainda via SSIS para a tabela MICRODADOS_ENEM dentro do banco de dados e a partir daí utilizei apenas o T-SQL para fazer os ETLs e carregar o DataWarehouse.
 
