@@ -1,4 +1,4 @@
-## h2 Technical Test - DataSprints
+## Technical Test - DataSprints
 
 
 Foi criada uma instância de banco SQL Server no Amazon RDS no Free Tier para esse desafio.
