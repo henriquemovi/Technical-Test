@@ -5,7 +5,7 @@ Foi criada uma instância de banco SQL Server no Amazon RDS no Free Tier para es
 
 A conexão ao banco foi feita através do Python, onde estão separados em 3 arquivos as cargas das stagings, as cargas frias de dimensões e as cargas incrementais de dimensões em T-SQL.
 
-Para acessar o dashboard criado para esse desafio, basta acessar o através do link [Power BI](https://app.powerbi.com/view?r=eyJrIjoiNTU2YmVkZWYtOWQwYy00NDc3LThlNTMtOGQ3OWQ2MGVhNDBlIiwidCI6Ijk4MTc2N2IyLWQwOGMtNDcyZi04ZGYzLTFmZGRiMDU2NzdhMSJ9) e ativar os botões de Dril Down nos 2 Mapas e no Histograma.
+Para acessar o dashboard criado para esse desafio, basta acessar o através do link [Power BI](https://app.powerbi.com/view?r=eyJrIjoiMWIyYTVlNjUtZTNkYS00OTg5LWE2ZGYtODk5MjY1YmIxN2ViIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9) e ativar os botões de Dril Down nos 2 Mapas e no Histograma.
 
 Foi utilizado o software DBFVIEWER para abrir as coordenadas geográficas das cidades brasileiras em formato .dbf e exportar para o formato .xls, e em seguida utilizado o SSIS(SQL Server Integration Services) para inserir os dados no banco.![SSIS](https://github.com/henriquemovi/Technical-Test/blob/master/SSIS%20Teste%20T%C3%A9cnico%20-%20DataSprints.png)
 
